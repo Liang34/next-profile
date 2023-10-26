@@ -1,6 +1,8 @@
-@import './variable.scss';
-@import '../components/Menu/index.scss';
+@import './variables';
+@import './reboot';
 
 .app {
   display: flex;
+  background-color: $primary-bg-color;
+  height: 100vh;
 }
