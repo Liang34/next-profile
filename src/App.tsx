@@ -5,9 +5,11 @@ import { Layout } from './pages/Layout'
 import './styles/index.scss'
 import { RouterProvider } from 'react-router-dom'
 import router from './router'
+import Sidebar from './components/Sidebar'
 function App() {
   return (
     <div className='app'>
+      <Sidebar />
       <RouterProvider router={router} />
     </div>
   )
