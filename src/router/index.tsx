@@ -2,6 +2,7 @@ import {
   createBrowserRouter
 } from "react-router-dom";
 import Welcome from "../pages/Welcome";
+import NormalProfile from "../pages/NormalProfile";
 
 const router = createBrowserRouter([
   {
@@ -9,11 +10,11 @@ const router = createBrowserRouter([
     Component: () => <Welcome />,
   },
   {
-    path: "/about",
-    Component: () => <div>About</div>,
+    path: "/normal_profile",
+    Component: () => <NormalProfile />,
   },
   {
-    path: "/users",
+    path: "/users", 
     Component: () => <div>Users</div>,
   }
 ]);
